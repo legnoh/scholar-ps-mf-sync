@@ -1,4 +1,4 @@
-import datetime, logging, time, base64, os, pyotp
+import datetime, logging, time, base64, os
 from zoneinfo import ZoneInfo
 from selenium.common.exceptions import NoSuchElementException
 from selenium.webdriver.common.by import By
