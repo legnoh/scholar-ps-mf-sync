@@ -2,7 +2,7 @@
 
 [![Badge](https://img.shields.io/badge/docker-legnoh/scholarps--exporter-blue?logo=docker&link=https://hub.docker.com/r/legnoh/scholarps-exporter)](https://hub.docker.com/r/legnoh/scholarps-exporter) [![publish](https://github.com/legnoh/scholarps-exporter/actions/workflows/ci.yml/badge.svg)](https://github.com/legnoh/scholarps-exporter/actions/workflows/ci.yml)
 
-Prometheus(OpenMetrics) exporter for [スカラネット・パーソナル](https://ouraring.com).
+Prometheus(OpenMetrics) exporter for [スカラネット・パーソナル](https://scholar-ps.sas.jasso.go.jp/mypage/).
 
 ## Usage
 
