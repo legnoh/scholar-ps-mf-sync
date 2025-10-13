@@ -1,0 +1,45 @@
+---
+scholarship:
+  labels:
+    key: &labels [number]
+  metrics:
+    - name: scholarship_total_loan_amount_jpy
+      desc: 貸与総額
+      type: gauge
+      labels: *labels
+    - name: scholarship_rate_percent
+      desc: 利率
+      type: gauge
+      labels: *labels
+    - name: scholarship_total_principal_amount_jpy
+      desc: 返還総額(元金)
+      type: gauge
+      labels: *labels
+    - name: scholarship_monthly_repayment_total_count
+      desc: 月賦返還回数
+      type: gauge
+      labels: *labels
+    - name: scholarship_monthly_repayment_amount_jpy
+      desc: 月賦返還額
+      type: gauge
+      labels: *labels
+    - name: scholarship_monthly_repayment_remaining_count
+      desc: 月賦返還残回数
+      type: gauge
+      labels: *labels
+    - name: scholarship_monthly_repayment_remaining_principal_amount_jpy
+      desc: 月賦返還残額(元金)
+      type: gauge
+      labels: *labels
+    - name: scholarship_prev_repayment_amount_jpy
+      desc: 前回入金額
+      type: gauge
+      labels: [number, date]
+    - name: scholarship_next_repayment_amount_jpy
+      desc: 現在請求額
+      type: gauge
+      labels: *labels
+    - name: scholarship_prev_transfer_amount_jpy
+      desc: 前回振替額
+      type: gauge
+      labels: [number, date, status]
